@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+            <div class="logo"data-aos="zoom-in" data-aos-duration="1500" >
+                <span>Karan K</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Skill & Proficiencies">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Education">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Certifications">Certifications</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <div class="dropdown">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>    
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="3000">
+                  <img src="main.png.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Karan</span></h1>
+                    <h2 class="typing-text" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900"><span class="static-text">I'm a</span> <span class="animated-text"></span></h2>
+                    <p data-aos="flip-up" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolorom hic ipsa vero. Eveniet, facilis! Quisquam eos reprehenderi.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/karan-kommireddi-640086214/" target="_blank" rel="noopener noreferrer" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1200">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/kk7995" target="_blank" rel="noopener noreferrer" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1300">
+                            <i class="fa-brands fa-hackerrank"></i>
+                        </a>
+                        <a href="https://www.facebook.com/karan.kommireddi.5" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/karankommireddi/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="bnt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700">
+                        <a href="Karan_Kommireddy_CV.docx" download>
+                            <button>Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>About Me</h2>
+                <p>Hi, I'm Karan Kommireddy, a passionate full-stack developer and AI-IoT enthusiast currently pursuing my B.Tech in Computer Science at SRM Institute of Science and Technology. With a deep interest in emerging technologies like AI, IoT, Quantum Computing, and Web3, I love building innovative solutions that bridge the gap between software and real-world applications.</p>
+            </div>
+        </section>
+        
+        <section id="Skill & Proficiencies" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Skill & Proficiencies</h2>
+                <ul class="skills-list">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node.js</li>
+                    <li>Python, Java</li>
+                    <li>Blockchain Fundamentals</li>
+                    <li>Database Management (SQL, MongoDB)</li>
+                    <li>Machine Learning (ML)</li>
+                    <li>Deep Learning</li>
+                    <li>Cloud Computing (AWS, Azure)</li>
+                    <li>Natural Language Processing (NLP)</li>
+                    <li>AI Frameworks (TensorFlow, PyTorch)</li>
+                    <li>Edge Computing</li>
+                    <li>AI Integration in IoT</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Education" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+            <h2>Education</h2>
+             <div class="education-card">
+            <h3>Bachelor of Technology</h3>
+            <p>SRM Institute of Science and Technology • 2023 - 2027</p>
+            <span>CGPA: 7.53 /10</span>
+            <h4>Relevant Coursework</h4>
+            <ul>
+                <li>Computer Science and Engineering</li>
+            </ul>
+        </div>
+        <div class="education-card">
+            <h3>12th</h3>
+            <p>Sri Chaitanya Institutions • 2022 - 2023</p>
+            <span>Percentage: 80.0 /100</span>
+            <h4>Relevant Coursework</h4>
+            <ul>
+                <li>Maths</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+            </ul>
+        </div>
+        <div class="education-card">
+            <h3>10th</h3>
+            <p>Viswabharathi English meduim High School • 2020 - 2021</p>
+            <span>Percentage: 100 /100</span>
+            <h4>Relevant Coursework</h4>
+            <ul>
+                <li>Science</li>
+                <li>Mathematics</li>
+                <li>Social Studies</li>
+            </ul>
+        </div>
+ 
+        
+        <section id="projects" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3>1.AI-Powered Guidance System for the Visually Impaired</h3>
+                        <p>A mobile app integrated with AI-powered smart glasses to assist visually impaired people with object detection, navigation, and traffic signal detection.</p>
+                        <h4>2.Smart Water Quality Management (IoT)</h4>
+                        <p> An IoT project that monitors water quality, detects chemicals, and integrates with a mobile app for real-time display and irrigation control.</p>
+                        <h5>3.HeliosphereAI</h5>
+                        <p> An AI-driven system for smart agriculture, utilizing IoT sensors to monitor and control plant growth and predict plant diseases.</p>
+                        <h6>4.AI-Integrated IoT System for Real-Time Inventory Management</h6>
+                        <p> A real-time inventory management system using IoT and AI to track and manage stock levels.</p>
+                        <h7>5.Currency Converter</h7>
+                        <p>A web app for converting currencies, using HTML, CSS, and JavaScript.</p>
+                        <h8>6.Personal Portfolio Website</h8>
+                        <p>A responsive and interactive personal website showcasing skills, projects, and contact information, using HTML, CSS, and JavaScript.</p>
+                        <h9>7.Real-Time Chat Application</h9>
+                        <p>A chat app that supports private and group chats, developed with Node.js, Express, Socket.IO, and React.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="Certifications" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Certifications</h2>
+                <div class="certifications-container">
+                    <h2>Certifications</h2>
+                    <div class="certifications-grid">
+                        <div class="certification-card">
+                            <h3>PENTATHON 2.0</h3>
+                            <p>Powered by CINTEL - Certification of Achivement</p>
+                            <p>2025</p>
+                            <a href="https://drive.google.com/file/d/198FnxJXR0BsgNFUSDY1mvTKu5j-r-aMp/view?usp=sharing" class="view-certificate">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <h3>DIGITHON 2.0</h3>
+                            <p>Qualified for External Round</p>
+                            <p>2025</p>
+                            <a href="https://drive.google.com/file/d/143KmPaLeDEnBL_1997mszHFajSl1zAvJ/view?usp=sharing" class="view-certificate">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <h3>SRM TECHNO HACATHON</h3>
+                            <p>Qualified for the Finals</p>
+                            <p>2025</p>
+                            <a href="https://drive.google.com/file/d/1NpeLK-dut9cmDaO9QGQiwoA6fbKxZKea/view?usp=sharing" class="view-certificate">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <h3>SharpAIthon</h3>
+                            <p>By IIC - Qualified for the Finals</p>
+                            <p>2025</p>
+                            <a href="link_to_certificate_4" class="view-certificate">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <h3>Leap'24</h3>
+                            <p>By IEE society</p>
+                            <p>2024</p>
+                            <a href="https://drive.google.com/file/d/1FOO6mc6_XQ9pUR7QT81gYBwSMT_MVCZB/view?usp=sharing" class="view-certificate">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <h3>IEEE WORKSHOP</h3>
+                            <p>By IEEE Society </p>
+                            <p>2024</p>
+                            <a href="https://drive.google.com/file/d/1ejOoEUbLcr8rtZn5Y2K_qI-ijl2xJdAX/view?usp=sharing" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+        
+        <section id="contact" data-aos="fade-up" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Contact</h2>
+                <p>You can reach me at:</p>
+                <ul class="contact-info">
+                    <li><strong>Phone:</strong> 8142063008</li>
+                    <li><strong>Email:</strong> <a href="mailto:postbox1360@gmail.com">postbox1360@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/karan-kommireddi-640086214/" target="_blank">linkedin.com/in/karan-kommireddi</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+
+        <script src="tr.js"></script>
+        <script>
+            function hamburg(){
+                const navbar=document.querySelector(".dropdown")
+                navbar.style.transform="translateY(0px)"
+            }
+            function cancel(){
+                const navbar=document.querySelector(".dropdown")
+                navbar.style.transform="translateY(-400px)"
+            }
+        </script>
+    </body>
+</html>
